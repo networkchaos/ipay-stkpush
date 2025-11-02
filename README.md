@@ -1,0 +1,30 @@
+//header 
+Content-Type: application/json
+
+//Bodies
+{
+    "phone": "254712345678",
+    "sid": "ABC1234567890",
+    "channel": "mpesa"
+  }
+  
+
+
+  {
+    "phone": "254712345678",
+    "sid": "ABC1234567890",
+    "channel": "airtel"
+  }
+
+  //response example:
+
+  {
+    "success": true,
+    "message": "STK Push triggered successfully",
+    "data": {
+      "header_status": "200",
+      "status": 1,
+      "text": "A Payment request has been sent to the MPESA number 254712345678"
+    }
+  }
+  
